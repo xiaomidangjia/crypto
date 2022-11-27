@@ -68,16 +68,7 @@ last_value = np.min([value_1,value_2])
 date_value = res_data['date'][len(res_data)-1]
 
 judge_res = pd.DataFrame({'date':date_value,'value':last_value},index=[0])
-judge_res.to_csv('res.csv')
-
-
-# In[3]:
-
-a = [1,2,3,4,5,6,7,8,9]
-a[-5:]
-
-
-# In[ ]:
+judge_res.to_csv('res_kong.csv')
 
 
 
